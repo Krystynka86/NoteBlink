@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B773F3C2A84EB0400D2CFAB /* NoteBlink Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6B773F3B2A84EB0400D2CFAB /* NoteBlink Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6B773F412A84EB0400D2CFAB /* NoteBlinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B773F402A84EB0400D2CFAB /* NoteBlinkApp.swift */; };
+		6B773F432A84EB0400D2CFAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B773F422A84EB0400D2CFAB /* ContentView.swift */; };
+		6B773F452A84EB0500D2CFAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B773F442A84EB0500D2CFAB /* Assets.xcassets */; };
+		6B773F482A84EB0500D2CFAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B773F472A84EB0500D2CFAB /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B773F3D2A84EB0400D2CFAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B773F2F2A84EB0400D2CFAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B773F3A2A84EB0400D2CFAB;
+			remoteInfo = "NoteBlink Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B773F4E2A84EB0500D2CFAB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6B773F3C2A84EB0400D2CFAB /* NoteBlink Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B773F352A84EB0400D2CFAB /* NoteBlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteBlink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B773F3B2A84EB0400D2CFAB /* NoteBlink Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NoteBlink Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B773F402A84EB0400D2CFAB /* NoteBlinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteBlinkApp.swift; sourceTree = "<group>"; };
+		6B773F422A84EB0400D2CFAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B773F442A84EB0500D2CFAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B773F472A84EB0500D2CFAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B773F382A84EB0400D2CFAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B773F2E2A84EB0400D2CFAB = {
+			isa = PBXGroup;
+			children = (
+				6B773F3F2A84EB0400D2CFAB /* NoteBlink Watch App */,
+				6B773F362A84EB0400D2CFAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B773F362A84EB0400D2CFAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B773F352A84EB0400D2CFAB /* NoteBlink.app */,
+				6B773F3B2A84EB0400D2CFAB /* NoteBlink Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B773F3F2A84EB0400D2CFAB /* NoteBlink Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				6B773F402A84EB0400D2CFAB /* NoteBlinkApp.swift */,
+				6B773F422A84EB0400D2CFAB /* ContentView.swift */,
+				6B773F442A84EB0500D2CFAB /* Assets.xcassets */,
+				6B773F462A84EB0500D2CFAB /* Preview Content */,
+			);
+			path = "NoteBlink Watch App";
+			sourceTree = "<group>";
+		};
+		6B773F462A84EB0500D2CFAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6B773F472A84EB0500D2CFAB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B773F342A84EB0400D2CFAB /* NoteBlink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B773F4F2A84EB0500D2CFAB /* Build configuration list for PBXNativeTarget "NoteBlink" */;
+			buildPhases = (
+				6B773F332A84EB0400D2CFAB /* Resources */,
+				6B773F4E2A84EB0500D2CFAB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B773F3E2A84EB0400D2CFAB /* PBXTargetDependency */,
+			);
+			name = NoteBlink;
+			productName = NoteBlink;
+			productReference = 6B773F352A84EB0400D2CFAB /* NoteBlink.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		6B773F3A2A84EB0400D2CFAB /* NoteBlink Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B773F4B2A84EB0500D2CFAB /* Build configuration list for PBXNativeTarget "NoteBlink Watch App" */;
+			buildPhases = (
+				6B773F372A84EB0400D2CFAB /* Sources */,
+				6B773F382A84EB0400D2CFAB /* Frameworks */,
+				6B773F392A84EB0400D2CFAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NoteBlink Watch App";
+			productName = "NoteBlink Watch App";
+			productReference = 6B773F3B2A84EB0400D2CFAB /* NoteBlink Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B773F2F2A84EB0400D2CFAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6B773F342A84EB0400D2CFAB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					6B773F3A2A84EB0400D2CFAB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B773F322A84EB0400D2CFAB /* Build configuration list for PBXProject "NoteBlink" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B773F2E2A84EB0400D2CFAB;
+			productRefGroup = 6B773F362A84EB0400D2CFAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B773F342A84EB0400D2CFAB /* NoteBlink */,
+				6B773F3A2A84EB0400D2CFAB /* NoteBlink Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B773F332A84EB0400D2CFAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B773F392A84EB0400D2CFAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B773F482A84EB0500D2CFAB /* Preview Assets.xcassets in Resources */,
+				6B773F452A84EB0500D2CFAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B773F372A84EB0400D2CFAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B773F432A84EB0400D2CFAB /* ContentView.swift in Sources */,
+				6B773F412A84EB0400D2CFAB /* NoteBlinkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B773F3E2A84EB0400D2CFAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B773F3A2A84EB0400D2CFAB /* NoteBlink Watch App */;
+			targetProxy = 6B773F3D2A84EB0400D2CFAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B773F492A84EB0500D2CFAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B773F4A2A84EB0500D2CFAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6B773F4C2A84EB0500D2CFAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NoteBlink Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UXC7U9N9AB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NoteBlink;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comsajakkrystynatouchdown.NoteBlink.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		6B773F4D2A84EB0500D2CFAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NoteBlink Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UXC7U9N9AB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NoteBlink;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comsajakkrystynatouchdown.NoteBlink.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		6B773F502A84EB0500D2CFAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UXC7U9N9AB;
+				INFOPLIST_KEY_CFBundleDisplayName = NoteBlink;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comsajakkrystynatouchdown.NoteBlink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6B773F512A84EB0500D2CFAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UXC7U9N9AB;
+				INFOPLIST_KEY_CFBundleDisplayName = NoteBlink;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comsajakkrystynatouchdown.NoteBlink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B773F322A84EB0400D2CFAB /* Build configuration list for PBXProject "NoteBlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B773F492A84EB0500D2CFAB /* Debug */,
+				6B773F4A2A84EB0500D2CFAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B773F4B2A84EB0500D2CFAB /* Build configuration list for PBXNativeTarget "NoteBlink Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B773F4C2A84EB0500D2CFAB /* Debug */,
+				6B773F4D2A84EB0500D2CFAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B773F4F2A84EB0500D2CFAB /* Build configuration list for PBXNativeTarget "NoteBlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B773F502A84EB0500D2CFAB /* Debug */,
+				6B773F512A84EB0500D2CFAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B773F2F2A84EB0400D2CFAB /* Project object */;
+}
