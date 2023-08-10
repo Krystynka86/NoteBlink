@@ -12,6 +12,7 @@
 		6B773F432A84EB0400D2CFAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B773F422A84EB0400D2CFAB /* ContentView.swift */; };
 		6B773F452A84EB0500D2CFAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B773F442A84EB0500D2CFAB /* Assets.xcassets */; };
 		6B773F482A84EB0500D2CFAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B773F472A84EB0500D2CFAB /* Preview Assets.xcassets */; };
+		6B773F552A8500E900D2CFAB /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B773F542A8500E900D2CFAB /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		6B773F422A84EB0400D2CFAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B773F442A84EB0500D2CFAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B773F472A84EB0500D2CFAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B773F542A8500E900D2CFAB /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 		6B773F3F2A84EB0400D2CFAB /* NoteBlink Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				6B773F532A85009300D2CFAB /* Model */,
 				6B773F402A84EB0400D2CFAB /* NoteBlinkApp.swift */,
-				6B773F422A84EB0400D2CFAB /* ContentView.swift */,
+				6B773F522A84FF1900D2CFAB /* View */,
 				6B773F442A84EB0500D2CFAB /* Assets.xcassets */,
 				6B773F462A84EB0500D2CFAB /* Preview Content */,
 			);
@@ -92,6 +95,22 @@
 				6B773F472A84EB0500D2CFAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6B773F522A84FF1900D2CFAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B773F422A84EB0400D2CFAB /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B773F532A85009300D2CFAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B773F542A8500E900D2CFAB /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +213,7 @@
 			files = (
 				6B773F432A84EB0400D2CFAB /* ContentView.swift in Sources */,
 				6B773F412A84EB0400D2CFAB /* NoteBlinkApp.swift in Sources */,
+				6B773F552A8500E900D2CFAB /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
