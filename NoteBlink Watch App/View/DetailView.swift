@@ -17,7 +17,7 @@ struct DetailView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 3) {
             // HEADER
-           
+            HeaderView(title: "")
             
             // CONTENT
             Spacer()
